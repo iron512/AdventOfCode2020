@@ -10,5 +10,5 @@ This is kinda a return to the origins, for me.
 ```
 ```sh
 > g++ main_2.cc -o marco
-> ./marco input.txt
+> ./marco input.txt 2020
 ```
