@@ -1,3 +1,8 @@
+/*
+*	This code could be easily solved with a n^2 code
+*	I implemented a 2nlogn (which is nlogn) version
+*/
+
 #include <fstream>
 #include <string>
 #include <iostream>
@@ -49,7 +54,7 @@ int main(int argc, char const *argv[]) {
 		found = (match != -1);
 	}
 
-	cout << endl << numbers[position] << " and " << numbers[match] << ", " << numbers[match] * numbers[position] << endl << endl;
+	cout << endl << numbers[position] << " and " << numbers[match] << ": " << numbers[match] * numbers[position] << endl << endl;
 	return 0;
 }
 

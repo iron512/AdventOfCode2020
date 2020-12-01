@@ -6,9 +6,9 @@ This is kinda a return to the origins, for me.
 ## Running the code
 ``` sh
 > g++ main_1.cc -o marco
-> ./marco input1.txt 2020
+> ./marco input.txt 2020
 ```
 ```sh
 > g++ main_2.cc -o marco
-> ./marco input2.txt
+> ./marco input.txt
 ```
