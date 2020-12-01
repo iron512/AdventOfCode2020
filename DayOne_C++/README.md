@@ -4,8 +4,11 @@ This language is really close to me, and i wanted to start with it, since i disc
 This is kinda a return to the origins, for me.
 
 ## Running the code
-`> g++ main_1.cc -o marco
-> ./marco input1.txt 2020`
-
-`> g++ main_2.cc -o marco 
-> ./marco input2.txt`
+``` sh
+> g++ main_1.cc -o marco
+> ./marco input1.txt 2020
+```
+```sh
+> g++ main_2.cc -o marco
+> ./marco input2.txt
+```
