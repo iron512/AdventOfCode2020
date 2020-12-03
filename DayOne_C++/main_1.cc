@@ -9,7 +9,6 @@
 #include <algorithm>
 using namespace std;
 
-
 int dicotomy(int* array, int size, int value);
 int dicotomy_alg(int* array, int min, int max, int value);
 

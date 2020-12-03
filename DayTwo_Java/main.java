@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class HelloWorld {
 	public static void main( String[] args ) {
 		if (args.length != 1) {
-			System.out.println("Wrong parameters passed. Please run using again using the correct syntax:\n\njava main_1.java <input_file_name>\n");
+			System.out.println("Wrong parameters passed. Please run using again using the correct syntax:\n\njava main.java <input_file_name>\n");
 			System.exit(1);
 		}
 
