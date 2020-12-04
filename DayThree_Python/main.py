@@ -28,7 +28,7 @@ for pair in diplacements:
 
 	finalproduct *= trees
 
-	print(trees)
+	#print(trees)
 
 	if pair == (3,1):
 		print("During our trip with the toboggan (3,1), we met " +  str(trees) + " trees.")
