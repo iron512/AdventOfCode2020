@@ -12,3 +12,4 @@ If I ever achieve something interesting during this adventure, i will write it d
 - Fully powered by linux. Shouldn't be an achivement, but i heard of people that still code on Windows.
 - On the first challenge I listened for 43 minutes the same song (Pumped up kick by *Foster the People*) without noticing. Special thanks to youtube 1hr loop song. Couldn't expect a better start.
 - On day four the most complex part is carried out through regex. Even as a programmer I never thought that i would actively need to use them. I'm positively astonished.
+- On day five, i solved both problem using and algorithm bound to the input size. Super proud, studying ASD was really worth, after all (i.e O(N))
