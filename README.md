@@ -13,3 +13,4 @@ If I ever achieve something interesting during this adventure, i will write it d
 - On the first challenge I listened for 43 minutes the same song (Pumped up kick by *Foster the People*) without noticing. Special thanks to youtube 1hr loop song. Couldn't expect a better start.
 - On day four the most complex part is carried out through regex. Even as a programmer I never thought that i would actively need to use them. I'm positively astonished.
 - On day five, i solved both problem using and algorithm bound to the input size. Super proud, studying ASD was really worth, after all (i.e O(N))
+- I solved in 37 min the first task of **Day Six** (48 mins for both task) using Go, which i never ever had used. I learned it from scratch in this occasion. Kinda proud.
