@@ -2,7 +2,7 @@
 filename =ARGV[0]
 
 file = File.open(filename)
-map = Hash.new
+map = Hash.new 
 
 for line in file 
 	if not line.match(/no other/)
@@ -27,8 +27,10 @@ poss.push 'shinygold'
 
 #filled
 changed = true
+i = 0
 
-while changed do
+while changed or i < 200 do
+	i = i + 1
 	changed = false
 		
 	map.each do |item, arr|
@@ -37,11 +39,16 @@ while changed do
   			if arr.include? elem then
   				changed = true
   				poss.push item
-  				arr.clear
+  				map.delete item
+
+  				puts "Inserting #{item} as it contains #{elem}"
   			end
   		end
-	end
+  	end
 
+  	poss.each do |elem|
+  		puts "\t #{elem}"
+  	end
 end
 
 puts poss.length() -1

@@ -2,7 +2,8 @@ import sys
 
 if len(sys.argv) != 2:
 	print("Wrong parameters passed. Please run using again using the correct syntax:\n\npython3 main.py <input_file_name>")
-
+	sys.exit(1)
+	
 f = open(sys.argv[1],"r").readlines()
 
 diplacements = [(1,1), (3,1), (5,1), (7,1), (1,2)]
